@@ -1,0 +1,105 @@
+.item-section_header {
+    text-align: center;
+}
+
+.item-section_header img {
+    width: 10rem;
+    height: 6.407rem;
+}
+
+li.flag {
+    background-color: #8BC34A;
+    position: relative;
+}
+
+.item-section {
+    background-color: red;
+}
+
+
+.figcaption.flag-item {
+    float: right;
+}
+
+
+a.figure.flag-item {
+    float: left;
+    width: 2.405rem;
+    height: 2.405rem;
+}
+
+.figcaption.flag-item {
+    width: 7.405rem;
+    float: right;
+}
+
+.flag-price span {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+
+.flag-type {
+    color: #FF5722;
+    margin: 5px 0;
+}
+
+
+a.flag-btn {
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: 14px;
+    padding: 12px;
+    bottom: 3px;
+}
+
+
+.flag-price {
+    color: red;
+}
+
+.flag-price strong {
+    margin: 0 5px;
+}
+
+.flag-price small {
+    margin: 0 5px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.figure img {
+    width: 2.405rem;
+    height: 2.405rem;
+}
+
+a.flag-btn {
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: 14px;
+    padding: 12px;
+    bottom: 10px;
+}
+
+li.flag {
+    background-color: #8BC34A;
+    position: relative;
+    margin-bottom: 5px;
+}

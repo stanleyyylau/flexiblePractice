@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+    <h1>This layout viewport is</h1>
+    <h2><span class="viewportW"></span> * <span class="viewportH"></span></h2>
+
+    <h1>Its visual viewport is</h1>
+    <h2><span class="windowW"></span> * <span class="windowH"></span></h2>
+
+    <h1>Its ideal viewport is</h1>
+    <h2><span class="idealViewPortW"></span> * <span class="idealViewPortH"></span></h2>
+
+    <h1>Its device ratio is</h1>
+    <h2 class="ratio"></h2>
+
+  <script type="text/javascript">
+    var viewportW = document.querySelector('.viewportW');
+    var viewportH = document.querySelector('.viewportH');
+    var windowW = document.querySelector('.windowW');
+    var windowH = document.querySelector('.windowH');
+    var ratio = document.querySelector('.ratio');
+    var idealViewPortW = document.querySelector('.idealViewPortW')
+    var idealViewPortH = document.querySelector('.idealViewPortH');
+
+
+    viewportH.innerHTML = document.documentElement.clientHeight;
+    viewportW.innerHTML = document.documentElement.clientWidth;
+
+    windowH.innerHTML = window.innerHeight;
+    windowW.innerHTML = window.innerWidth;
+
+    idealViewPortW.innerHTML = screen.width;
+    idealViewPortH.innerHTML = screen.height;
+
+    ratio.innerHTML = window.devicePixelRatio;
+  </script>
+  </body>
+</html>
